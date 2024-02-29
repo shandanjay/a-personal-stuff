@@ -1,0 +1,107 @@
+repo_name: shandanjay/a-personal-stuff
+report_id: dd50334f620637ad0de507be35e0face
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:47:01+00:00'
+requested_by: rh-id
+provider: github
+branch: master
+detected_tools_count: 8
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/shandanjay/a-personal-stuff
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/shandanjay/a-personal-stuff/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Ruby Hartono
+  last_updated_on: 2023-06-01 14:24:35.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shandanjay/a-personal-stuff
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/shandanjay/a-personal-stuff/blob/master/.github/workflows/android-emulator-test.yml
+  detection_source: ".github/workflows/android-emulator-test.yml"
+  last_updated_by: Ruby Hartono
+  last_updated_on: 2022-05-11 08:22:47.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/shandanjay/a-personal-stuff/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Ruby Hartono
+  last_updated_on: 2022-05-11 08:22:47.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/shandanjay/a-personal-stuff/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Ruby Hartono
+  last_updated_on: 2023-06-01 14:24:35.000000000 Z
+- name: com.google.zxing:core
+  description: Core barcode encoding/decoding library
+  version: 3.4.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/shandanjay/a-personal-stuff/blob/master/barcode/build.gradle
+  detection_source: barcode/build.gradle
+  last_updated_by: Ruby Hartono
+  last_updated_on: 2023-06-01 14:24:35.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.2
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/shandanjay/a-personal-stuff/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Ruby Hartono
+  last_updated_on: 2023-06-01 14:24:35.000000000 Z
